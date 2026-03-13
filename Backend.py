@@ -28,7 +28,7 @@ GROK_API_KEY   = os.getenv("GROK_API_KEY")
 BASE_CHAT_URL  = os.getenv("BASE_CHAT_URL", "https://juristmind.onrender.com")
 
 # ==================== MODEL CONSTANTS ====================
-THINKING_MODEL = "grok-4-1-fast"   # Call 1: case researcher (agentic search + reasoning)
+THINKING_MODEL = "grok-4.20-multi-agent-beta-latest"   # Call 1: case researcher (agentic search + reasoning)
 FAST_MODEL     = "grok-3-fast"     # Greetings / predefined answers only
 WRITING_MODEL  = "grok-4-1-fast"   # Call 2: answer writer
 
